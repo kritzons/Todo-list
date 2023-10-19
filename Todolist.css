@@ -1,0 +1,116 @@
+
+
+body{
+    background-color: #DFCCFB;
+}
+
+/* .header{
+    background-color: #FFF8C9;
+} */
+.header{
+    background-color: #BEADFA;
+    width: auto;
+    height: 70px;
+}
+.header h1{
+    font-family: Comfortaa;
+    font-size: 50px;
+    color: #FFF8C9;
+    margin-left: 40px;
+    text-shadow: rgba(0, 0, 0, 0.614) 3px 1px 3px;
+    padding-top: 10px;
+}
+
+#inputbox{
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 10px;
+    height: 50px;
+    border: none;
+    border-radius: 30PX;
+    background-color: #FFF8C9;
+    box-shadow: rgba(0, 0, 0, 0.155) 3px 2px 3px ;
+    font-family: Comfortaa;
+    font-size: 20px;
+    font-weight: bold;
+    text-indent: 20px;
+}
+
+#inputbox:focus{
+    outline: none;
+}
+
+.add {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #FF8080;
+    font-family: Comfortaa;
+    font-weight: bold;
+    color: #FFF8C9;
+    text-shadow:rgba(0, 0, 0, 0.614) 3px 1px 3px ;
+    box-shadow: rgba(0, 0, 0, 0.155) 3px 2px 3px ;
+}
+.add:focus{
+    outline: none;
+}
+.add:hover{
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
+
+
+.listobjects{
+font-size: 30px;
+font-family: Comfortaa;
+font-weight: bold;
+color: #FFF8C9;
+text-shadow:rgba(0, 0, 0, 0.614) 4px 2px 3px ;
+margin-left: 20 px ;
+}
+
+ul{
+    list-style-type: decimal;
+    font-size: 30px;
+    font-family: Comfortaa;
+    font-weight: bold;
+    color: #FFF8C9;
+    text-shadow:rgba(0, 0, 0, 0.614) 3px 1px 3px ;
+}
+.delete{
+    margin-left: 30px;
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    font-size: 20px;
+    font-family: Comfortaa;
+    font-weight: bold;
+    background-color: #FF8080;
+    color: #FFF8C9;
+    margin-bottom: 40px;
+}
+.delete:hover{
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
